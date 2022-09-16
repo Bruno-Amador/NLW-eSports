@@ -1,1 +1,5 @@
-Projeto feito por meio das aulas do evento NLW eSports da Rocketseat.
+# NLW eSports
+
+> Trilha Explorer
+
+Projeto feito por meio das aulas do evento Next Level Week da Rocketseat.
