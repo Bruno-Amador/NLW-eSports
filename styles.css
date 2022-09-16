@@ -22,9 +22,8 @@ body * {
 }
 
 header {
-    margin-top: 32px;
+    padding-top: 32px;
     height: calc(120px + 32px);
-    text-align: center;
 }
 
 header div {
@@ -38,7 +37,6 @@ header div {
     padding: 4px;
 
     transition: transform .3s;
-
 }
 
 header div:hover {
@@ -50,18 +48,12 @@ header div img{
     border-radius: 50%;
 }
 
-header h2 {
-    margin: 8px;
-    color: white;
-}
-
 main {
     max-width: 580px;
     width: 90%;
     margin: 32px auto;
 
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 24px;
 }
 
@@ -69,7 +61,7 @@ section {
     color: white;
     background-image: linear-gradient(90deg, #9A35FF 0%, #FA41FE 50%, #2871FF 100%);
     padding-top: 4px;
-    border-radius: 13px;
+    border-radius: 10px;
 }
 
 section div {
@@ -86,7 +78,6 @@ section h2 {
 section p {
     letter-spacing: -0.18px;
     color: #A1A1AA;
-
 }
 
 section ul {
@@ -119,10 +110,6 @@ section ul li:hover {
 /* animation */
 
 header div {
-    animation: fromTop .7s .2s backwards;
-}
-
-header h2 {
     animation: fromTop .7s .2s backwards;
 }
 
